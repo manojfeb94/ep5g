@@ -1,0 +1,212 @@
+kubectl appply -f pods.yml
+
+components involved while running above command
+
+kube-container
+
+kube-scheduler
+
+kube-proxy
+
+etcd
+
+kube-api
+
+
+@pytest.fixture(scope=session)
+
+
+kube-api is running or not.
+
+Ability to switch between control planes
+
+what kube config will manage and how 
+
+lifecycle in terraform parameter
+
+rolling update in k8
+
+kubectl create role ""
+
+kubectl bind
+
+Architecture of k8. What could be one of the component not working or symptoms for it and how to test that in pytest framework
+
+kube config. 
+
+
+
+10
+
+
+
+n = int(input("Enter a number")
+output_list = []
+for i in range(n):
+    output_list.append(n)
+	
+print(output_list)
+
+Without using if else how to find even odd
+
+
+conftest.py
+
+helper functions
+
+ 
+
+fixtures
+
+routines 
+
+.gitlab-ci.yml
+
+
+test automation to be simpler
+
+
+
+You have kubernetes cluster , HELM CHART, cicd pipeline
+
+pipeline deploy infra for you using helm
+
+
+
+1st stage: create infra
+
+2nd stage : verify infra creation status
+
+
+
+3rd stage when conditional
+
+
+helm rollback v1
+
+test framework supports parallel execution, reusability across different functional teams and dynamic environment provisioning
+
+cicd standpoint 
+
+test validation using prometheus and graffana
+
+
+
+
+Quota exceeded: Your Ssd Total Gb usage has exceeded the limit. Request more quota to prevent disruptions and ensure smooth operations.
+ Quota exceeded: Your Ssd Total Gb usage has exceeded the limit. Request more quota to prevent disruptions and ensure smooth operations.
+Recommendations
+View quotas
+ Insufficient quota to satisfy the request: Not all instances running in IGM after 32.383320526s. Expected 1, running 0, transitioning 1. Current errors: [GCE_QUOTA_EXCEEDED]: Instance 'gke-cluster-1-default-pool-ca0466ab-fm9m' creation failed: Quota 'SSD_TOTAL_GB' exceeded. Limit: 250.0 in region us-central1.
+ 
+ 
+ 
+ Architecture of k8
+
+when we run some kubectl command , what is background flow how control plane will interact with data plane and what are components involved.
+
+Do you have knowledge on kube-network (some CNI plugins, ) Need understanding on Kube network area
+
+Deamonset when we apply it will be on control plane or data plane ? both or one of them and why ?
+
+How dockerfile is created and how contents are written in Dockerfile. Base image is needed , We don't have base image and how will you start writting docker file.
+
+Testing k8 cluster, what are critical parts to check for components for kubernetes to make sure that cluster is functional.
+
+
+
+How to Investigate a Node in NotReady State in Kubernetes
+
+internal sequence between components of k8 for pod eviction
+
+difference between AWS VPC and GCP VPC
+
+
+
+
+GCP ACE - Google Cloud Associate Cloud Engineer certification udemy course right now it is 70 %
+
+
+
+
+
+
+
+
+-------------------------
+
+Kubernetes
+
+Node upgrade in k8
+Annotations vs Selectors in Kubernetes
+Manifests
+
+Machine is consuming too much CPu what troubleshooting will you do
+
+Shell scripting
+
+Difference between statefulset and deamonset
+
+
+
+redirection operators in Linux
+send error only to some file
+
+for dns issue how we can resolve you are able to access ip but not dns how to troubleshoot in Linux
+
+how to check Kubernetes pod logs
+
+procedure for node upgrade in k8
+
+statefulset and deamonset
+
+
+
+hard links and softlinks in Linux
+mount and unmount in Linux
+
+RAID (Redundant Array of Independent Disks) in Linux combines multiple drives for improved performance, storage capacity, and fault tolerance, managed primarily via the mdadm tool. Common levels include RAID 0 (striping), RAID 1 (mirroring), RAID 5 (parity), and RAID 10 (hybrid).
+
+how to schedule job in Linux
+
+crontab -e 30 2 * * 6 /path/to/command
+
+iptables
+
+meta charecters in shell script
+
+positional parameters in shell script
+
+
+Key Linux Hardening Checklist
+Update & Patch: Regularly apply security updates (apt update && apt upgrade or yum update) to fix vulnerabilities.
+Minimize Services: Disable or uninstall unnecessary services, software, and packages to reduce potential entry points.
+Secure SSH: Modify /etc/ssh/sshd_config to disable root login (PermitRootLogin no), change the default port, and use SSH key-based authentication.
+Firewall Configuration: Enable and configure firewalls (UFW or firewalld) to allow only necessary traffic.
+User Management: Enforce strong password policies, lock unused accounts, and ensure users use sudo instead of root.
+File System Security: Use separate partitions for /var and /home, set restrictive permissions, and utilize tools like SELinux or AppArmor.
+Monitoring & Logging: Configure rsyslog to send logs to a remote server for integrity and auditability. 
+
+
+dhcp port
+
+what exactly gdc is and how it is different from cloud.
+
+SRE is like development and observability like creating dashboards And it is like platform role.
+
+
+
+reduce size of image
+
+kernels
+
+hard disk memory is 100 % how will you clear ?
+is it always safe to clean temporary log files
+
+After GCP certification need to go through following items:
+GKE deep dive and creating GKE clusters and troubleshooting issue faced while creating GKE cluster and setting up that.
+Dashboard creations for k8 cluster logs using GCP observability and Monitoring tools
+New Relic integration with GKE
+what all scripts required for sequential push
+try to learn robin storage and need to learn how that works This robin is storage on GDC platform
+How synch happens , how to resynch and what to do synch fails (for replicating entire db from one zone to other)
