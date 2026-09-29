@@ -1,0 +1,57 @@
+Housing Loan details :
+Limit
+2,00,000
+Interest Amount
+192624
+Total Principal Paid (Sec 80C)  	
+28668.00
+Bank : Union Bank of India
+Address of Property
+D No 11-2-53/1, Flat No 103, Sri Rama Towers, Navodaya Nagar, Narasaraopet, pin 522601
+Date of Occupation or Possession (DD/MM/YYYY)
+02/03/2021
+City
+
+NARASARAOPETA
+Loan Sanction Date (DD/MM/YYYY)
+11/02/2021
+Loan Sanction Amount
+2800000.00
+Actual Value of the house property
+3600000.00
+Name of the lender
+Ganga Yellamanda
+Address of the lender
+dr.no :11-2-53/1, Near pavuluri subbarao school, Narsaraopet
+PAN of the lender
+BBLPG4871Q
+
+
+UTI Mutual fund :
+571305552136
+
+LIC Policies
+678617102 quaterly 
+premium : 10084
+policy purchase date : 28/11/2019
+Sum assured : 1000000.00
+
+676972660 Half yearly
+Premium : 3496.00
+policy purchase date :28/01/2015
+Sum assured : 200000.00
+
+HRA details :
+Address :
+Flat no  204, Sri sai ram towers, Near Hero honda Show room,Narsaraopet
+Landlord name :
+N PADMAVATHI
+Rent Per Month * :
+14000
+Flat no  207, Sri sai ram towers, Near Hero honda Show room,Narsaraopet
+
+Flat No 208, Sri Sai Ram towers, Near hero honda showroom, kakathiya nagar, narasaraopet, pin 522601
+
+HRA : 14,000 
+my home beside home.
+PAN number : AQOPN3962G (PADMAVATHI)
